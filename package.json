@@ -1,0 +1,21 @@
+{
+  "name": "devchallenge-webscraping-correios",
+  "version": "1.0.0",
+  "description": "Web scrapper",
+  "main": "index.js",
+  "repository": "https://github.com/danielnoliveira/devchallenge-webscraping-correios.git",
+  "author": "Daniel Nogueira de Oliveira <daniel.n.oliveira@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@types/puppeteer": "^5.4.3",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "puppeteer": "^9.1.1"
+  }
+}
